@@ -1,0 +1,442 @@
+/* logo footer */
+.logo2{
+    width: 100px;;
+}
+/* logo nav.bar */
+.logo{
+    width: 50px;
+    margin-right: 10px;
+}
+.thumbnail-product{
+    height: 150px !important;
+    max-width: 150px !important;
+}
+.real-price{
+    text-decoration: line-through;
+}
+.ofert{
+    color: black;
+}
+td{
+    border: 1px solid orange !important;
+
+}
+
+/* footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-md-4 {
+    width: 33.33%;
+    padding: 0 20px;
+  }
+  
+  h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .redes-sociales {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .redes-sociales li {
+    margin-right: 10px;
+  }
+  
+  .redes-sociales a img {
+    width: 40px;
+    height: 40px;
+    transition: all 0.3s ease;
+  }
+  
+  .redes-sociales a:hover img {
+    transform: scale(1.2);
+  }
+  
+  .copy {
+    background-color: #222;
+    padding: 20px 0;
+  }
+  
+  .copy p {
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* imagen nosotros  */
+  .img-img{
+    height: 400px !important;
+    max-width: 400x !important;   
+  }
+  .img_car{
+    height: 400px;
+    max-width: 400px;
+    align-self: center;
+  }
+  .owl-carousel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  .ingres{
+    margin: 0;
+    padding: 0;
+    background-color: #b16f6f;
+  
+  }
+  .formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+  }
+  .formulario h1{
+    text-align: center;
+    padding: 00 20px 0;
+    border-bottom: 1px solid silver;
+  }
+  .formulario form {
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+  
+  form .username{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+  }
+  
+  .username input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  .username label{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: #000000;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+  }
+  
+  .username span::before{
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #6C3483;
+  }
+  
+  .username input:focus ~ label,
+  .username input:focus ~ label{
+    top: -5px;
+    color: #6C3483;
+  }
+  
+  .username input:focus ~ span::before,
+  .username input:focus ~ span::before{
+    width: 100%;
+  }
+  .recordar{
+    margin: -5px 0 20px 5px;
+    color: blue;
+    cursor: pointer;
+  }
+  .recordar:hover{
+    text-decoration: underline;
+  }
+  
+  .registrarse{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .ini{
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 30px; 
+      background-color: #333;
+      color: #fff;
+      padding: 3px 0;
+      clear: both;
+      display: table;
+      width: 100%;
+  }
+
+  /* REGISTRO */
+  .form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+  }
+
+  input[type="texto"], input[type="contraseña"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  .form1 {
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+  }
+  
+  .input1[type="text"], input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .input1[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .input1[type="submit"]:hover {
+    background-color: #45a049;
+  }
+    .HeaderMenuAdmin{
+      font-size: larger;
+      text-align: left;
+      height: 80px;
+      font-size: 50px;
+    }
+  .OpcionAdminMenu{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+  }
+  .MenuAdmin{
+    padding-bottom: 200px;
+  }
+
+
+  #InfoTextArea{
+    height: 450px;
+    padding-left: 100px;
+    margin: 90px;
+  }
+  #PhotoAreaAdmin{
+    height: 450px;
+    padding-top: 350px;
+  }
+  #HeaderMProductos{
+    padding-left: 200px;
+    padding-top: 15px;
+  }
+  #TablaProductos{
+    height: 200px; 
+    overflow: auto;
+  }
+  #divSeparador{
+    padding-bottom: 100px;
+  }
+  
+
+   /* Ficha */
+section#producto {
+  display: flex;
+}
+
+.imagen {
+  flex-basis: 50%;
+}
+
+.imagen img {
+  width: 50%;
+}
+
+.informacion {
+  flex-basis: 50%;
+  padding: 20px;
+}
+
+.informacion h2 {
+  margin-top: 0;
+}
+
+.informacion ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.precio {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#boton2 {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+/* MANTENEDOR DE BODEGA */
+#InfoTextArea{
+  height: 450px;
+  padding-left: 100px;
+  margin: 90px;
+}
+#PhotoAreaAdmin{
+  height: 450px;
+  padding-top: 350px;
+}
+#HeaderMProductos{
+  padding-left: 200px;
+  padding-top: 15px;
+}
+#TablaProductos{
+  height: 200px; 
+  overflow: auto;
+}
+#divSeparador{
+  padding-bottom: 100px;
+}
+
+#CategoriaDrop{
+  padding-bottom: 5px;
+}
+#HeaderMBodega{
+  padding-left: 200px;
+  padding-top: 15px;
+}
+#InfoTextAreaBodega{
+  height: 200px;
+  padding-left: 100px;
+  margin: 90px;
+}
+#PhotoAreaBodega{
+  height: 40px;
+  padding-top: 90px;
+}
+#ImagenBodega{
+  height: 300px;
+  padding-bottom: 120px;
+}
+#TablaProductosBodega{
+  height: 200px; 
+  overflow: auto;
+}
+
+/* REGISTRO DE USUARIO */
+#CheckboxRegistro{
+  padding-left: 260px;
+}
+#BotonRegistroPOS{
+  padding-left: 400px;
+}
+#RegistroUsuarioHeader{
+  padding-left: 200px;
+  padding-top: 60px;
+}
+#PhotoAreaRegistro{
+  height: 450px;
+  padding-top: 250px;
+}
+
+/* CONCURSO */
+#ApiContHeader{
+  padding-left: 500px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-size: larger;
+}
+#ConatinerAPI{
+  padding-left: 300px;
+  
+}
+#CardApi{
+  width: 18rem;
+}
+#CardLayout{
+  padding-left: 50px;
+}
+.card-img-top{
+  height: 300px;
+  width: 60%;
+  padding-left: 45px;
+}
+#CardBArea{
+height: 300px;
+}
+#TextoCard{
+  padding-left: 45px;
+}
+.IngresarFormulariocss{
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
